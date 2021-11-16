@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <View style={styles.header}>
       <Entypo name="infinity" size={24} color="cyan" style={styles.logo} />
-      <Text style={styles.heading}>Quick Assistant</Text>
+      <Text style={styles.heading}>iTrade</Text>
     </View>
   );
 }

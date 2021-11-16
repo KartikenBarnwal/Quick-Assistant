@@ -15,11 +15,11 @@ import List from "./components/List";
 
 export default function App() {
   const [todo, handleTodo] = useState([
-    { task: "Go for a jog", id: "1" },
-    { task: "Make a podcast", id: "2" },
-    { task: "Do a fast today", id: "3" },
-    { task: "Learn react native", id: "4" },
-    { task: "Take no stress", id: "5" },
+    { task: "TCS - Good results expected", id: "1" },
+    { task: "Reliance - Buy below 2300", id: "2" },
+    { task: "Zomato - Good for long term", id: "3" },
+    // { task: "Learn react native", id: "4" },
+    // { task: "Take no stress", id: "5" },
   ]);
 
   function _onPressButton(key) {
